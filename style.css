@@ -1,0 +1,219 @@
+/* Configurações gerais */
+body {
+    background: linear-gradient(to right, #9087fa, #231a5a);
+    margin: 0;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header h1 {
+    font-family: Verdana, sans-serif;
+    color: #f9f9fb;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+header nav {
+    font-family: Georgia, serif;
+    margin: 20px 0;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Área principal */
+main {
+    display: flex;
+    gap: 10px;
+}
+
+/* Artigos */
+article {
+    flex: 1;
+    padding: 15px;
+    background-color: #7492bc;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+article:hover {
+    transform: scale(1.01);
+}
+
+article h2 {
+    color: #4c0059;
+    font-size: 1.5rem;
+}
+
+article p {
+    font-family: Georgia, serif;
+    color: #7e0000;
+    font-size: 1rem;
+}
+
+/* Imagens */
+article img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Área de inscrição */
+aside {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #d9d6ff;
+    border-radius: 15px;
+}
+
+aside h2 {
+    font-family: Verdana, sans-serif;
+    color: #4c0059;
+    font-size: 1.5rem;
+}
+
+aside p {
+    font-family: Georgia, serif;
+    color: #7e0000;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Georgia, serif;
+}
+
+/* Fieldsets */
+fieldset {
+    padding: 20px;
+    border: 2px solid #6f71f2;
+    border-radius: 10px;
+    background-color: #f8f8ff;
+}
+
+legend {
+    font-weight: bold;
+    color: #4c0059;
+    padding: 0 8px;
+}
+
+/* Nome e e-mail lado a lado */
+.dados-pessoais {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Campos */
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #4c0059;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 2px solid #6f71f2;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #4c0059;
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    width: auto;
+}
+
+/* Botão */
+button {
+    background-color: #4c0059;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6f71f2;
+    transform: scale(1.02);
+}
+
+/* Rodapé */
+footer {
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    color: #ff48c8;
+    font-size: 1rem;
+    margin: 10px 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+footer p a {
+    color: #fb0000;
+    text-decoration: none;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .dados-pessoais {
+        flex-direction: column;
+    }
+
+    aside {
+        margin: 20px 0;
+    }
+}
+/*frescurinha basica*/
+.lua-final {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    color: #f9f987;
+    font-size: 1.5rem;
+    z-index: 1000;
+}
+
+.lua-inicial {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    color: #f9f987;
+    font-size: 1.5rem;
+    z-index: 1000;
+}
+
