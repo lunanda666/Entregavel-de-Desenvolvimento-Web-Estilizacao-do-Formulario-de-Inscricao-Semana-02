@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+
+
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+<div class="lua-inicial">✧₊⁺⋆☾</div>
+
+<header>
+    <h1>Meu primeiro site</h1>
+
+    <nav>
+        <a href="#artigo1">Artigo 1</a>
+        <a href="#artigo2">Artigo 2</a>
+        <a href="#inscricao">Inscrição</a>
+    </nav>
+</header>
+
+<main>
+
+    <article id="artigo1">
+        <h2>Primeiro artigo</h2>
+        <p>Tá jóia, amigo?</p>
+
+        <img
+            src="https://i.pinimg.com/736x/8e/fb/8b/8efb8b0b8014a6551ccb3a3b691fd78e.jpg"
+            alt="Imagem do primeiro artigo"
+        >
+    </article>
+
+    <article id="artigo2">
+        <h2>Segundo artigo</h2>
+        <p>Esse gato aqui definitivamente chama sua atenção, né? :)</p>
+
+        <img
+            src="https://i.pinimg.com/originals/d4/7a/c3/d47ac35a55e4a376a1965dad26366ced.gif"
+            alt="Gato fofinho"
+        >
+    </article>
+
+</main>
+
+<aside>
+    <h2 id="inscricao">Inscrição</h2>
+
+    <p>
+        Preencha o formulário abaixo para se inscrever no meu blog.
+    </p>
+
+    <form method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="nome">Nome:</label>
+            <input
+                type="text"
+                id="nome"
+                name="nome"
+                minlength="3"
+                required
+            >
+
+            <label for="email">E-mail:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+
+            <label for="idade">Idade:</label>
+            <input
+                type="number"
+                id="idade"
+                name="idade"
+                min="18"
+                max="120"
+                required
+            >
+        </fieldset>
+
+        <fieldset>
+            <legend>Preferências</legend>
+
+            <label for="assunto">Assunto:</label>
+
+            <select id="assunto" name="assunto" required>
+                <option value="">Selecione um assunto</option>
+                <option value="tecnologia">Tecnologia</option>
+                <option value="jogos">Jogos</option>
+                <option value="programacao">Programação</option>
+            </select>
+
+            <label>
+                <input
+                    type="checkbox"
+                    name="termos"
+                    required
+                >
+                Aceito os termos
+            </label>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+</aside>
+
+<footer>
+    <p>
+        Obrigada por ver meu site! Toma um agrado
+        <a
+            href="https://www.youtube.com/watch?v=2yJgwwDcgV8"
+            target="_blank"
+        >
+            aqui
+        </a>
+        :D
+    </p>
+
+    <p>&copy; 2026 - Meu primeiro site</p>
+</footer>
+
+<div class="lua-final">✧₊⁺⋆☾</div>
+
+</body>
+</html>
