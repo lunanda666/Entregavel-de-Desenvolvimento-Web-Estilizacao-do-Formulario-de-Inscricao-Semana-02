@@ -1,18 +1,18 @@
-# 🎨 Desenvolvimento Web — Semana 02
+# Desenvolvimento Web — Semana 02
 
-## 📌 Sobre o projeto
+## Sobre o projeto
 
 Este projeto foi desenvolvido como parte do **Entregável de Desenvolvimento Web – Semana 02**, com o objetivo de finalizar a estilização do formulário de inscrição do blog.
 
 Nesta etapa, foram aplicados conceitos de **CSS e Flexbox** para criar um formulário mais organizado, agradável visualmente e com melhor usabilidade.
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 * HTML5
 * CSS3
 * Flexbox
 
-## 📁 Estrutura do projeto
+## Estrutura do projeto
 
 ```text
 Semana02/
@@ -21,7 +21,7 @@ Semana02/
 └── README.md
 ```
 
-## 🎨 Estilização do formulário
+## Estilização do formulário
 
 O formulário recebeu uma área própria com largura máxima, espaçamento interno e uma cor de fundo diferente do restante da página.
 
@@ -35,7 +35,7 @@ Foram utilizados recursos de CSS como:
 * `font-size`
 * `gap`
 
-## 📐 Uso do Flexbox
+## Uso do Flexbox
 
 O Flexbox foi utilizado para organizar os elementos do formulário de maneira vertical e facilitar o espaçamento entre os campos.
 
@@ -57,7 +57,7 @@ Também foi aplicado o Flexbox para organizar os campos de **nome e e-mail lado 
 }
 ```
 
-## 📝 Campos do formulário
+## Campos do formulário
 
 Os elementos `<label>`, `<input>` e `<select>` receberam estilos próprios para melhorar a aparência e a usabilidade do formulário.
 
@@ -69,7 +69,7 @@ Os campos possuem:
 * Tamanho de fonte adequado;
 * Destaque visual quando selecionados.
 
-## 🖱️ Botão de envio
+## Botão de envio
 
 O botão de envio foi estilizado para se destacar visualmente na página.
 
@@ -86,13 +86,13 @@ button {
 
 Também foi adicionado um efeito `:hover` para fornecer um retorno visual quando o usuário passa o cursor sobre o botão.
 
-## 📱 Responsividade
+## Responsividade
 
 Foi adicionada uma regra de mídia para adaptar o layout a telas menores.
 
 Em dispositivos com largura reduzida, os campos de nome e e-mail passam a ficar um abaixo do outro, facilitando o preenchimento em dispositivos móveis.
 
-## 🎯 Objetivos da atividade
+## Objetivos da atividade
 
 * Praticar estilização de formulários com CSS;
 * Utilizar propriedades do Flexbox;
@@ -102,7 +102,7 @@ Em dispositivos com largura reduzida, os campos de nome e e-mail passam a ficar 
 * Melhorar a usabilidade da página;
 * Desenvolver uma interface mais organizada e visualmente agradável.
 
-## 👨‍💻 Autor
+## Autor
 
 **Lunanda Rebeca**
 
